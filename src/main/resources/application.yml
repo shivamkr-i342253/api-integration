@@ -1,0 +1,14 @@
+github:
+  user-email: shivamkr.lko@gmail.com
+  registration:
+    client-id: 64016885ecbdb3985522
+    client-secret: eae9044c879d359afe9644f54568e8584dbe892c
+    scope:
+      - repo
+      - user
+  provider:
+    domain: https://github.com/
+    api-authorize: https://github.com/login/oauth/authorize
+    api-access-token: https://github.com/login/oauth/access_token
+    api-user: https://api.github.com/user
+    api-user-events: https://api.github.com/users/{username}/events
